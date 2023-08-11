@@ -17,3 +17,21 @@ The application is data-driven, so users can always see the latest information f
 Developers can use the application to find updated repositories to contribute to.
 Students can use the application to find repositories for research projects.
 Anyone who is interested in learning about open source software can use the application to find interesting repositories to explore.
+
+
+**Steps of Development**
+
+Github authentication token generation
+
+Build queries:
+
+Follow documentation
+https://docs.github.com/en/graphql/overview/explorer
+
+
+Retrieving data: work in app.js
+Generating State: useState used for names
+Creating query Component & Call back hook fetchData
+Mapping of repo listing rom api
+Search component for Dynamic Search queries
+Pagination work
